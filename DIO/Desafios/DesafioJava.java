@@ -6,7 +6,7 @@ public class DesafioJava {
         System.out.println("Entrada: ");
         System.out.print("Valor do Sálario: ");
         double salarioBruto = sr.nextDouble();
-        System.out.print("Vallor do Beneficio:");
+        System.out.print("Valor do Beneficio:");
         double valorBeneficio = sr.nextDouble();
 
         double imposto = 0;
