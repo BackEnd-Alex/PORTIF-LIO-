@@ -1,3 +1,5 @@
+package DIO.Desafios;
+
 import java.util.Scanner;
 
 public class DesafioJava {
