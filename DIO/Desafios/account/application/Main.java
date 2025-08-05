@@ -1,6 +1,6 @@
 package DIO.Desafios.account.application;
 
-import DIO.Desafios.account.entities.BankAccount;
+import DIO.Desafios.account.model.BankAccount;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -42,6 +42,7 @@ public class Main {
                     double valorDeposito = sr.nextDouble();
                     account.deposit(valorDeposito);
                     System.out.println("Depósito realizado.");
+                    System.out.printf("Saldo: %.2f" , account.getBalance());
                     break;
                 case 3:
                     System.out.print("Valor para saque: ");

@@ -1,4 +1,4 @@
-package DIO.Desafios.account.entities;
+package DIO.Desafios.account.model;
 
 import java.util.Date;
 
